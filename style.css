@@ -1,0 +1,337 @@
+body{
+margin: 0px;
+padding: 0px;
+position: relative;
+}
+.navbar-brand{
+font-size: 28px !important;
+color: teal !important;
+text-transform: uppercase;
+font-family: sans-serif;
+letter-spacing: 2px;
+border-right: teal solid 3px;
+border-left: teal solid 3px;
+border-radius: 12px;
+border-color: white;
+}
+.navbar{
+background-color: black ;
+}
+.nav-link{
+font-size: 20px;
+color: white !important;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: bold;
+}
+.nav-link:hover{
+color: teal !important;
+}
+.navbar-nav .nav-link.active{
+color: teal !important;
+border-bottom: white solid 2px;
+}
+.nav-item{
+margin-left: 15px;
+}
+.landing{
+position: relative;
+top: 0px;
+left: 0px;
+width: 100%;
+display: table;
+height: 100vh;
+}
+
+.home-wrapper{
+clip: rect(0,auto,auto,0);
+position: absolute;
+top:0px ;
+left: 0px;
+width: 100%;
+height:100% ;
+}
+.home-inner{
+background-image: url(images/cod.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+opacity: 0.7;
+height:100%;
+display: table;
+background-size: cover;
+position: fixed;
+top: 0px;
+left: 0px;
+}
+.caption{
+position: absolute;
+top: 290px;
+width: 100%;
+}
+.caption h1{
+font-size: 80px;
+color:black;
+text-transform: uppercase;
+margin-bottom: 30px;
+font-family:sans-serif;
+letter-spacing: 2px;
+
+}
+.caption a{
+font-size: 30px;
+}
+.caption a:hover{
+background-color: teal;
+color:black;
+}
+@media(max-width:768px){
+.caption h1{
+font-size:50px ;
+}
+.caption a{
+font-size:20px ;
+}
+div.con{
+height: 170px;
+}
+}
+.wrapper{
+    background-color:whitesmoke;
+     text-align: center;
+     padding:8em 0 8em 0;
+     
+ }
+ .container{
+     width: 1200px;
+     margin: 0 auto;
+     
+ 
+ }
+ .row{
+     display: flex;
+     justify-content: center;
+     
+ }
+ 
+ .row > .col-12{
+ width: 33.33%;
+ 
+ }
+ .row > * {
+     padding: 25px 0 0 25px;
+ }
+ 
+ .box{
+     background-color:#fff;
+     text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1em;
+ }
+ .box h1{
+ color: teal;
+ font-family: sans-serif;
+ font-size: 25px;
+ }
+ 
+ .box i{
+     font-size: 45px;
+     color: teal;
+ }
+ .box i:hover{
+     color: black;
+ }
+ .box p{
+  
+     text-align: justify;
+     padding: 1em;
+ }
+
+    h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    }
+    hr{
+    width: 120px;
+    background-color: tomato;
+    height: 12px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    }
+   
+  
+h2{
+font-size:40px ;
+color: black;
+text-align: center;
+}
+i{
+font-size: 120px;
+color: tomato;
+margin-bottom: 30px;
+}
+i:hover{
+color: black;
+}
+h3{
+color: teal;
+margin-bottom: 30px;
+}
+p{
+text-align: justify;
+padding: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div hr{
+width:120px ;
+height:15px;
+background-color: tomato;
+border-radius: 10px;
+}
+.gallery img:hover{
+transform: scale(1.2);
+}
+
+.gallery img{
+transition:transform .5s ease ;
+}
+h5{
+color: gray;
+}
+#about{
+    background-color: whitesmoke;
+}
+#contact{
+     width: 100%;
+    height:700px;
+    }
+
+
+    .contact1{
+        width: 100%;
+        height:550px;
+       
+    }
+
+
+    .mem{
+  float: left;
+    height:500px;
+
+   
+    }
+    .form{
+      height:500px;
+        float: left;
+    }
+    .mem th{
+        text-align: center;
+    }
+    table{
+    width: 100%;
+    height:100% ;
+    border-collapse: collapse;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    th,td{
+    border-bottom: black solid 2px;
+    text-align: center;
+    font-size: 30px;
+    }
+    th{
+    background-color: teal;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    }
+    td{
+    background-color: gray;
+    }
+   
+    .mem table tr td:hover{
+    background-color: black;
+    color: white;
+    }
+  
+  
+    
+    .mem table tr button{
+font-size: 35px;
+border-radius: 5px;
+padding: 10px 15px;
+color: black;
+background-color:teal;
+border: none;
+}
+.mem table tr button:hover{
+    border: none;
+    background-color: teal;
+    color: white;
+    }
+    
+   
+    label{
+    font-size: 22px;
+    }
+    input{
+    width: 100%;
+    padding: 5px;
+    border: teal solid 2px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 50px;
+    outline: none;
+    font-size: 24px;
+    }
+    input[type=submit]{
+    background-color: teal;
+    height: 50px;
+    font-size: 24px;
+    border: black solid 2px;
+    }
+    input[type=submit]:hover{
+    background-color: black;
+    color: white;
+    }
+    input:focus{ border: red solid 2px;}
+.con i{
+font-size: 40px;
+padding: 10px;
+}
+#footer{
+    width: 100%;
+   
+   }
+.con{
+background-color: black;
+height:220px;
+padding-top:30px;
+width:100%;
+float: left;
+}
+.con h5{
+color: white;
+font-size: 30px;
+padding-top: 30px;
+}
+.con h6 {
+color: teal;
+font-size:18px ;
+}
+#copyright{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1em;
+    list-style: none;
+ padding:60px 0;
+}
+.con  i{
+    color: cornflowerblue;
+}
+.con i:hover{
+color: teal;
+}
